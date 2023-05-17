@@ -13,7 +13,7 @@ var collegeRouter = express.Router();
 collegeRouter.use(bodyParser.json());
 
 
-
+    
 collegeRouter.route('/')
 
     .get((req, res, next) => {
